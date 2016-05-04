@@ -1314,6 +1314,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="carrier_name_string">China Mobile</string>
     </carrier_config>
 
+    <carrier_config mcc="460" mnc="00">
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="460" mnc="02">
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
+    </carrier_config>
+
     <carrier_config mcc="460" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1492,6 +1500,14 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
         </map>
+    </carrier_config>
+
+    <carrier_config mcc="460" mnc="07">
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
+    </carrier_config>
+
+    <carrier_config mcc="460" mnc="08">
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
     </carrier_config>
 
     <carrier_config mcc="460" mnc="11">
