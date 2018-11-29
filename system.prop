@@ -167,9 +167,6 @@ Camera.no_navigation_bar=true
 ro.cutoff_voltage_mv=3250
 #endif
 
-#property for game detection feature
-vendor.debug.enable.gamed=0
-
 #properties for limiting preview size in camera
 persist.sys.camera.display.umax=1920x1080
 persist.sys.camera.display.lmax=1280x720
