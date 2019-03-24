@@ -1,0 +1,3 @@
+add_lunch_combo carbon_oneplus3-user
+add_lunch_combo carbon_oneplus3-userdebug
+add_lunch_combo carbon_oneplus3-eng 
