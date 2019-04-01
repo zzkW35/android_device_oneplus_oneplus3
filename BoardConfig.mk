@@ -21,9 +21,6 @@
 # definition file).
 #
 
-# Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
-
 PLATFORM_PATH := device/oneplus/oneplus3
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
@@ -191,6 +188,9 @@ TARGET_USES_MKE2FS := true
 # Power
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 TARGET_USES_INTERACTION_BOOST := true
+
+# QCOM Power
+TARGET_POWERHAL_VARIANT := qcom
 
 # RIL
 TARGET_RIL_VARIANT := caf
