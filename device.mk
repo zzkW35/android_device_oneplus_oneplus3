@@ -30,7 +30,7 @@ PRODUCT_BOARD_PLATFORM := msm8996
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-statix
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
