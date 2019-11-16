@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.pocketmode;
+package com.statix.pocketmode;
 
 import android.content.Context;
 import android.hardware.Sensor;
