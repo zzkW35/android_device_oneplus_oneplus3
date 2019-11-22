@@ -24,17 +24,16 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2019-04-01
+
 PRODUCT_NAME := statix_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
 
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="oneplus3" \
-    TARGET_DEVICE="oneplus3" \
-    PRIVATE_BUILD_DESC="OnePlus3-user 9 PKQ1.181203.001 1907311932 release-keys"
+PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:user/release-keys"
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:user/release-keys
+TARGET_VENDOR := oneplus
